@@ -6,9 +6,9 @@
  * Date: 5-Aug-2016.
  * Description: Finding the minimum of a 
  * given multivariable function under double constraints
- * Purpose: this program uses th complex method of M.J.Box
+ * Purpose: this program uses the complex method of M.J.Box
  * and is initialy created by Joel A. Richardson and J.L. Kuester
- * in Fortran.To use the program, the user must provide the specifical
+ * in Fortran 77.To use the program, the user must provide the specifical
  * functions jfunc and jconst1,which describe the objective function 
  * and the constraints.An example how to use the program is the follow.
  * '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
@@ -41,7 +41,7 @@
  * '	 }                                                                                           '
  * ' }                                                                                               '     
  * ' executing:                                                                                      '     
- * ' programing.Box(n,m,l,k,x,alpha,beta,gamma,delta,itmax,jconst1,jfunc);                           '     
+ * ' programming.Box(n,m,l,k,x,alpha,beta,gamma,delta,itmax,jconst1,jfunc);                           '     
  * ' output:=> { x: [ 3.0003939306264016, 1.731787690628987, 5.99993819871818 ],                     '     
  * ' fmin: 0.9995443200842825,                                                                       '    
  * ' iterations: 90 }                                                                                '     
