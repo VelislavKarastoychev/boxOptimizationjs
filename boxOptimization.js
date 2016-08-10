@@ -47,6 +47,7 @@
  * ' iterations: 90 }                                                                                '     
  * '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
  */
+var programming = new Object();
 (function(exports){
   /*
    * Create an k x n matrix with elements of 
@@ -227,4 +228,4 @@
 	}
 	exports.Box = jconsx;
 	
-})(euriklis.Mathematics.programming); 
+})(programming); 
