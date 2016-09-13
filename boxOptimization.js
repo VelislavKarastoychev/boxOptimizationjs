@@ -57,16 +57,16 @@ var programming = new Object();
    */
 	function random(m,n,seed){
 		var i,j,k,rn = new Array();
-        for(i = 0;i < m;i++){
-        	rn[i] = [];
-        	for(j = 0;j < n;j++){
+                for(i = 0;i < m;i++){
+        	    rn[i] = [];
+        	    for(j = 0;j < n;j++){
         		seed = parseInt(seed);
         		k = parseInt(seed/127773);
-            	seed = parseInt(16807*(seed - k*127773)- k*2836);
-            	if ( seed < 0 )seed += 2147483647;
+            	        seed = parseInt(16807*(seed - k*127773)- k*2836);
+            	        if ( seed < 0 )seed += 2147483647;
         		rn[i][j] = seed*4.656612875e-10;
-        	}
-        }
+        	    }
+               }
         return rn;
 	}
 	function jconsx(n,m,l,k,x,alpha,beta,gamma,delta,itmax,jconst1,jfunc){
